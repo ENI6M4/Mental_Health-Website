@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ 
+ol{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+
+ol li{
+   display: inline-block;
+}
+  
+ol li a{
+     text-decoration: none;
+     color: #fff;
+     padding: 5px 20px;
+     border: 1px solid transparent;
+     transition: 0.6s ease;
+}
+
+ol li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ol li.active a{
+      background-color: #fff;
+      color: #000;
+}
+
+.logo img{
+      float: left;
+      width: 150px;
+      height: = auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+     postition: absolute;
+     top: 50%;
+     left: 50%; 
+     transform: translate(-50%,-50%);
+}
+
+.title h1{
+       color: #fff;
+       font-size: 70px;
+       
+}
+    
+    
+    
+    
+    
+ 
