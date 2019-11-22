@@ -4,25 +4,25 @@
     font-family: Century Gothic;
 }
 
-header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("1.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
  
-ol{
+ol {
     float: right;
     list-style-type: none;
     margin-top: 25px;
     
 }
 
-ol li{
+ol li {
    display: inline-block;
 }
   
-ol li a{
+ol li a {
      text-decoration: none;
      color: #fff;
      padding: 5px 20px;
@@ -30,35 +30,35 @@ ol li a{
      transition: 0.6s ease;
 }
 
-ol li a:hover{
+ol li a:hover {
     background-color: #fff;
     color: #000;
 }
 
-ol li.active a{
+ol li.active a {
       background-color: #fff;
       color: #000;
 }
 
-.logo img{
+.logo img {
       float: left;
       width: 150px;
       height: = auto;
 }
 
-.main{
+.main {
     max-width: 1200px;
     margin: auto;
 }
 
-.title{
+.title {
      postition: absolute;
      top: 50%;
      left: 50%; 
      transform: translate(-50%,-50%);
 }
 
-.title h1{
+.title h1 {
        color: #fff;
        font-size: 70px;
        
