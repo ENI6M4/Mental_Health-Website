@@ -1,0 +1,80 @@
+
+
+
+
+/* Style the header */
+header {
+  background-color: lightblue;
+  padding: 200px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-image: url("backround.jpg");
+  background-position: center;
+  background-size: cover;
+  li {
+  display: inline;
+}
+}
+
+h1 {
+	
+  color: navy;
+  text-align:center;
+  font-size:300%;
+  
+}
+
+h2 {
+	text-align:center;
+}
+
+p {
+	text-align:center;
+	background-color:white;
+	border:2px solid black;
+}
+
+h3 {
+	text-align:center;
+}
+
+h4 {
+	text-align:center;
+}
+
+#headingVerylight {
+	background-color:grey;
+	text-align:center;
+	color:white;
+	font-size:150%;
+}
+
+#headinglight {
+	background-color:blue;
+	text-align:center;
+	color:white;
+	font-size:150%;
+}
+
+#headingModerate {
+	background-color:green;
+	text-align:center;
+	color:white;
+	font-size:150%;
+}
+
+#headinghard {
+	background-color:orange;
+	text-align:center;
+	color:white;
+	font-size:150%
+}
+
+#headingmaximum {
+	background-color:red;
+	text-align:center;
+	font-size:150%;
+}
+
+	
