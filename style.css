@@ -14,8 +14,7 @@ header {
 ol {
     float: right;
     list-style-type: none;
-    margin-top: 25px;
-    
+    margin-top: 25px;    
 }
 
 ol li {
@@ -39,11 +38,10 @@ ol li.active a {
       background-color: #fff;
       color: #000;
 }
-
 .logo img {
       float: left;
       width: 150px;
-      height: = auto;
+      height: auto;
 }
 
 .main {
@@ -60,10 +58,34 @@ ol li.active a {
 
 .title h1 {
        color: #fff;
-       font-size: 70px;
-       
-}
+       font-size: 70px;    
     
+}
+
+.button {
+    postion: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
     
     
     
