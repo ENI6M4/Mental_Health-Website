@@ -3,6 +3,7 @@
 	padding: 0;
 }
 .cover{
+	height: 800px;
 	background: url(contact_cover.jpg);
 	background-size: cover;
 }
@@ -23,19 +24,54 @@
 	margin: 8px auto;
 	cursor: pointer;
 }
+.top-social ul h1{
+	position:relative;
+	text-align: right;
+	right:0px;
+	top:2px;
+	font-size: 30px;
+	font-family: cursive;
+	color: white:;
+}
+.top-social{
+	width: 100%;
+	float: right;
+	position:relative;
+	right: -200px;
+}
+.top-social img{
+	width: 50px;
+	height: 50px;
+}
+.top-social ul li{
+	display: inline-block;/*This code brings all words in horizontaal line*/
+	list-style: none;/* ?????? */
+	text-decoration: none;/* ??? */
+	margin: 5px 10px;/* going down, gap between words get wider */
+	padding-top: 5px;
+	padding-right: : 30px;
+	cursor: pointer;
+	color: white;
+	font-size:  20px;
+	float: right;
+}
 .menu-bar{
 
 	opacity: .8;
-	width: 150%;
+	width: 125%;
 	float: left;
 	text-align: center;
 	background-color: Tomato;
+}
+.menu-bar ul li:onClick{
+
+
 }
 .menu-bar ul li{
 	display: inline-block;/*This code brings all words in horizontaal line*/
 	list-style: none;/* ?????? */
 	text-decoration: none;/* ??? */
-	margin: 25px 40px;/* going down, gap between words get wider */
+	margin: 25px 50px;/* going down, gap between words get wider */
 	padding-top: 5px;
 	cursor: pointer;
 	color: white;
@@ -45,31 +81,31 @@
 }
 .active, .menu-bar ul li:hover{
 	border-radius:8px;
-padding: 10px 10px 0px 10px;
 	border-bottom: 6px solid #2c97e4;
+	color: black;
 }
+
 .contact-form{
 	width: 85%;
 	max-width: 600px;
 	background: #f1f1f1	;
 	position: absolute;
 	top: 40%;
-	left: 15%;
+	left: 7%;
 	padding: 30px 40px;
 	box-sizing: border-box;
-	border-radius: 10px;
+	border-radius: 20px;
 	text-align: center;
 	box-shadow: 0 0 20px #000000b3;
-	font-family: "Montserrat",sans-serif;
 }
 .contact-form h1{
-	margin-top: 0;
-	font-weight: 200;
+text-decoration: underline;
+	font-family:cursive, sans-serif;
+	font-size: 50px;
 }
 .textbar{
 	margin: 8px 0;
 	padding: 12px 18px;
-	border-radius: 10px;
 }
 .textbar label{
 	display: block;
@@ -83,43 +119,57 @@ padding: 10px 10px 0px 10px;
 	border:none;
 	font-size: 18px;
 	margin-top: 6px;
+	resize: none;
 }
 .button{
+	font-family: cursive,sans-serif;
+	font-size: 20px;
 	display: block;
 	background: tomato;
 	padding:14px 0;
-	color: white:;
+	border-radius: 20px;
 	cursor: pointer;
 	margin-top: 8px;
 	width: 30%;
-}
+	box-shadow:  0 0 20px #000000b3;
+	}
 .button:hover {
 	background-color: #3e8e41
 }
 
 .button:active {
+
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-  }	
-.bottom{
-	width: 150%;
-	float: left;
-	text-align: center;
-	background-color: #333;
-	padding-top: 65px;
-	color: white; 
+  box-shadow:  0 0 20px #000000b3;	
 }
-.middle{
-	width: 150%;
+.bottom{
+	width: 100%;
+	transition: 20px;
+	background-color: #333;
+	padding-top: 270px;
+	color: white; 
+	font-family: cursive, sans-serif;
+}
+.bottom h2{
+	position:relative;
+	text-align: right;
+	right:250px;
+	top:2px;
+	font-size: 30px;
+	font-family: cursive;
+}
+.social{
+	width: 100%;
 	float: right;
 	background-color: #333;
 }
-.middle img{
+.social img{
 	width: 50px;
 	height: 50px;
 }
-.middle ul li{
+.social ul li{
 	display: inline-block;/*This code brings all words in horizontaal line*/
 	list-style: none;/* ?????? */
 	text-decoration: none;/* ??? */
@@ -134,4 +184,24 @@ padding: 10px 10px 0px 10px;
 .btn:hover {
   box-shadow: 0 5px tomato;
   transform: translateY(4px);
+}
+.contact-loc{
+	width: 85%;
+	max-width: 600px;
+	background: #f1f1f1	;
+	position: absolute;
+	top: 70%;
+	left: 55%;
+	box-sizing: border-box;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 0 0 20px #000000b3;
+	padding-bottom: 50px;
+}
+.contact-loc img{
+	width: 300px;
+	height: 300px;
+}
+.text ,.contact-loc{
+	font-family: cursive, sans-serif;
 }
