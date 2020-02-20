@@ -1,3 +1,3 @@
 # HTML-CSS
 
-Mental Health Webpage
+Mental Health Web-page
